@@ -1,5 +1,5 @@
 #include "odi/odi.h"
-#include "odi/debug.h"
+#include "odi/core/debug.h"
 
 #include "drivers/test/basic/basic_dd.h"
 #include "drivers/bus/pci/pci_dd.h"

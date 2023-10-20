@@ -1,17 +1,17 @@
 #include "odi/dependencies.h"
-#include "odi/types.h"
+#include "odi/core/types.h"
 
 #ifdef USE_KOT
 //Kot imports go here
 #endif
 
 #ifdef USE_BMOON
-#include "../memory/heap.h"
-#include "../memory/paging.h"
-#include "../util/dbgprinter.h"
-#include "../util/printf.h"
-#include "../util/string.h"
-#include "../io/io.h"
+#include "memory/heap.h"
+#include "memory/paging.h"
+#include "util/dbgprinter.h"
+#include "util/printf.h"
+#include "util/string.h"
+#include "io/io.h"
 #endif
 
 #define STR_MAX_SIZE 65536
