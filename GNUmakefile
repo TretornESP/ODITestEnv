@@ -154,14 +154,11 @@ $(OBJDIR)/%_s.o: $(SRCDIR)/%.S
 copy:
 	@echo !==== COPYING FILES
 	@rm -rf $(SRCDIR)/odi
-	@rm -rf $(SRCDIR)/drivers
 	@cp -a $(ODIDIR)/. $(SRCDIR)/odi/
-	@cp -a $(DRVDIR)/. $(SRCDIR)/drivers/
 	@tree $(SRCDIR)/
 
 ccopy:
 	@rm -rf $(SRCDIR)/odi
-	@rm -rf $(SRCDIR)/drivers
 
 link: 
 #	@ echo !==== LINKING $^
